@@ -57,9 +57,9 @@
 <!--  This following code makes the map the same height as the aurora image --!>
     
 <script>
-  var x = document.getElementById("AuroraImg").height;
-  var y = document.getElementById("MapImg").height;
-    document.getElementById("MapImg").style.height = document.getElementById("AuroraImg").style.height;
+  var x = document.getElementById("AuroraImg").style.height;
+  
+    document.getElementById("MapImg").style.height = x;
 </script>
     
 
