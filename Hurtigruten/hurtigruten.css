@@ -9,6 +9,9 @@
 
 .zoom {
   transition: transform .2s; /* Animation */
+  overflow: hidden; 
+  cellspacing: 0px; 
+  margin: 0 0 0 0;"
 /*  margin: 0 auto;  */
 }
 
