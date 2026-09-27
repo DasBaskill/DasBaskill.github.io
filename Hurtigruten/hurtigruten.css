@@ -8,7 +8,8 @@
 }
 
 .zoom {
-  transition: transform .2s; /* Animation */
+  box-shadow: 0 0 8px 8px white inset;
+  transition: transform 1.0s; /* Animation */
   overflow: hidden; 
   cellspacing: 0px; 
   margin: 0 0 0 0;"
