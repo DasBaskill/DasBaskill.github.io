@@ -24,11 +24,30 @@
   overflow: hidden;  
 }
 
+.zoomdivbox:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+
+
+.zoomlargedivbox {
+  transition: transform 1.0s;
+  cellspacing: 0px; 
+  z-index: -1;
+  display: block;   
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;  
+}
+
+.zoomlargedivbox:hover {
+  transform: scale(2.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+
 .zoomimg {
   background-color: white;
   width: 100%;
 }
 
-.zoomdivbox:hover {
-  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-}
+
