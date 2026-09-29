@@ -7,11 +7,6 @@
     font-size: 1.0em;
 }
 
-.cropimg  {
-  width: 150%;
-  margin-left: -40%;
-}
-
 .zoomdivbox {
   transition: transform 1.0s; /* Animation */
   cellspacing: 0px; 
